@@ -12,15 +12,16 @@ public class JunitDemo {
     public void init() {
         System.out.println("init...");
     }
+
     @Test
-    public void test01(){
+    public void test01() {
         Student s = new Student();
         s.sleep();
     }
 
 
     @After
-    public void close(){
+    public void close() {
         System.out.println("close...");
     }
 }
